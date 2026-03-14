@@ -1,79 +1,49 @@
 ---
-title: "YouTube Shorts Hashtags: Do They Matter? (A Practical 2026 Guide)"
-date: 2026-03-14T09:45:00+09:00
+title: "Do Hashtags Matter for YouTube Shorts? (Practical Answer)"
+date: 2026-03-14T12:55:00+09:00
 draft: false
 ---
 
-Hashtags won’t save a bad Short.
-But they *can* help your video get categorized faster—especially when your niche isn’t obvious from the first second.
+Hashtags *can* help a little—but they’re not a growth lever.
 
-Here’s the practical way to use hashtags on YouTube Shorts (without looking spammy).
+If your Shorts aren’t getting views, it’s almost never “missing hashtags.” It’s usually:
+- the first second (hook)
+- pacing (too slow)
+- unclear promise (viewer doesn’t know what they’ll get)
 
-## 1) Do hashtags matter on Shorts?
-**A little.** Think of hashtags as a *weak signal*:
-- They can help YouTube understand **topic / niche**.
-- They can help your Short show up in **hashtag pages**.
-- They don’t replace the real ranking inputs: **retention, replays, shares, and satisfaction**.
+## What hashtags do (and don’t do)
+**They do:**
+- add a small amount of topical context
+- help a bit with categorization
 
-So the goal is not “stuff keywords.”
-The goal is “make the topic unambiguous.”
+**They don’t:**
+- fix a weak hook
+- rescue low retention
+- replace clear titles + strong opening lines
 
-## 2) How many hashtags should you use?
-Use **1–3 hashtags**.
+## A simple hashtag rule (use this)
+Use **0–3 hashtags max**.
 
-Why:
-- 0 hashtags is fine if your hook + on-screen text already makes the topic clear.
-- 1–3 is enough to provide category context.
-- More than that is usually noise—and looks like copy/paste spam.
+Pick:
+1) one broad: #shorts
+2) one niche: #youtubeshorts or #contentcreator
+3) one topic-specific (optional): #productivity, #notion, #aitools, etc.
 
-## 3) What hashtags should you choose?
-Pick hashtags in this order:
+If you need 10 hashtags to explain your video, the hook is probably unclear.
 
-### A) One broad category tag
-Examples:
-- #YouTubeShorts
-- #ContentCreation
-- #VideoEditing
+## Better than hashtags: make the promise obvious
+Instead of stacking tags, rewrite your first line:
+- Bad: “Here’s a quick tip.”
+- Better: “Steal this 1 hook to stop viewers from scrolling.”
 
-### B) One niche tag
-Examples:
-- #Notion
-- #CapCut
-- #FacelessYouTube
-- #AIForCreators
-
-### C) (Optional) One format / promise tag
-Examples:
-- #ShortsTips
-- #ScriptWriting
-- #HookWriting
-
-If you can’t explain *why* a hashtag is there, remove it.
-
-## 4) Where should hashtags go?
-Put them in the **description**, usually at the end.
-
-Keep your first lines readable:
-- 1–2 lines for the promise / context
-- then hashtags
-
-Example:
-> 3 hook formulas that increase Shorts retention.
-> #YouTubeShorts #HookWriting #ShortsTips
-
-## 5) Don’t forget the bigger SEO “trio”
-If you want discoverability, hashtags are the smallest lever.
-Focus on these first:
-
-1. **Hook clarity** (first 1–2 seconds)
-2. **On-screen text** (topic visible)
-3. **Title** (human + keyword)
-
-Hashtags come *after* you’ve nailed those.
+## Bottom line
+Hashtags are a *minor* optimization.
+Focus on:
+- hook clarity
+- speed
+- one clear promise
 
 ---
 
-## Want a repeatable system for hooks + scripts?
-I keep my hook ideas, angles, and scripts in a Notion workflow so I can batch content fast.
-
+If you want a system to batch ideas + scripts in Notion:
 - YouTube Shorts Content Factory OS: https://masagc.gumroad.com/l/igcgak

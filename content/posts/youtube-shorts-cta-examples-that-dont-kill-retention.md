@@ -1,75 +1,51 @@
 ---
-title: "25 YouTube Shorts CTA Examples That Don’t Kill Retention"
-date: 2026-03-14T00:31:00+09:00
+title: "YouTube Shorts CTA Examples That Don’t Kill Retention"
+date: 2026-03-14T12:50:00+09:00
 draft: false
 ---
 
-Most Shorts don’t fail because the idea is bad.
+Most Shorts lose retention right at the end—because the CTA feels like a hard switch.
 
-They fail because the **CTA is awkward** — it feels needy, too long, or it breaks the pace right when the viewer is deciding whether to rewatch.
+Here are practical CTA styles you can use that *don’t* wreck pacing.
 
-Below are **25 CTA lines** you can rotate without tanking retention.
+## The rule: match the CTA to the promise
+If your promise is **“learn 1 thing”**, your CTA should be **“apply 1 thing”**.
+If your promise is **“get a template”**, your CTA can be **“comment a keyword”**.
 
-## The rule: CTA should be one breath
-Aim for **one sentence**.
+## 1) The “next step” CTA (best default)
+Use when: tutorials, frameworks, scripts.
 
-Good CTAs:
-- confirm value (“save this”)
-- create a *next step* (“try this on your next edit”)
-- invite a lightweight response (“comment a keyword”)
+Example lines:
+- “Try this on your next video and tell me what changed.”
+- “Rewrite your hook using this formula—then test it once.”
 
-Bad CTAs:
-- long explanations
-- multiple actions at once
-- guilt (“please support me…”) 
+## 2) The “comment keyword” CTA (low friction)
+Use when: you can actually reply with something helpful.
 
-## 1) Save / rewatch CTAs (best for tips)
-1. “Save this and use it on your next post.”
-2. “Bookmark this — you’ll need it later.”
-3. “Rewatch the first 3 seconds and copy the hook.”
-4. “Save the template. Swap the words.”
-5. “Screenshot this structure.”
+Example lines:
+- “Comment ‘HOOK’ and I’ll drop 10 hook starters.”
+- “Comment ‘SCRIPT’ and I’ll share a 30-second structure.”
 
-## 2) Comment CTAs (low friction)
-6. “Comment ‘HOOK’ and I’ll drop 10 more examples.”
-7. “Comment your niche and I’ll adapt the line.”
-8. “Comment ‘SCRIPT’ if you want the template.”
-9. “What niche are you in? Comment it.”
-10. “Drop your topic and I’ll write the first hook.”
+## 3) The “save this” CTA (retention-friendly)
+Use when: lists, checklists, swipe files.
 
-## 3) Follow CTAs (soft, not begging)
-11. “Follow for more 15-second templates.”
-12. “Follow if you want daily hook ideas.”
-13. “Follow — I’m building a full Shorts workflow.”
-14. “Follow for repeatable script structures.”
-15. “Follow for creator systems that save time.”
+Example lines:
+- “Save this—use it next time you write a script.”
+- “Bookmark this list and rotate one hook per day.”
 
-## 4) Duet / stitch / remix CTAs (platform-native)
-16. “Stitch this with your version.”
-17. “Duet this and try the hook with your topic.”
-18. “Remix this with your niche.”
+## 4) The “part 2” CTA (only if you deliver)
+Use when: you have a follow-up ready.
 
-## 5) Link / product CTAs (use sparingly)
-19. “If you want my Notion workflow, the link is in my bio.”
-20. “I put the full template in a Notion page — link in bio.”
-21. “Grab the checklist if you want to ship faster (bio).”
+Example lines:
+- “If you want part 2, I’ll show 3 examples in different niches.”
 
-## 6) Series CTAs (increase returning viewers)
-22. “Part 2: I’ll show the edit structure.”
-23. “Tomorrow: 10 hook formulas for your niche.”
-24. “Next: how to write the proof section in 2 beats.”
+## 5) The “soft plug” CTA (product mention without whiplash)
+Use when: your product is directly tied to the post.
 
-## 7) One-line challenge CTAs
-25. “Try this today: rewrite your hook in 10 words.”
+Example lines:
+- “If you want the Notion workflow I use to batch scripts, it’s linked in my bio.”
 
-## Quick CTA framework (fill in the blank)
-Use this:
+---
 
-- “Save this and use it on your next ___.”
-- “Comment ‘___’ and I’ll share ___.”
-- “Follow for more ___ templates.”
-
-## If you want a full system
-I use a Notion workflow to store hooks, batch scripts, and track what actually performs.
-
+If you want a repeatable Notion workflow for hooks → scripts → publish log:
 - YouTube Shorts Content Factory OS: https://masagc.gumroad.com/l/igcgak
