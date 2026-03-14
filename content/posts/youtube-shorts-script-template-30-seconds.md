@@ -1,61 +1,105 @@
 ---
-title: "A 30-Second YouTube Shorts Script Template (Hook → Value → Payoff → CTA)"
-date: 2026-03-14T00:00:00+09:00
+title: "YouTube Shorts Script Template (30 Seconds): Copy, Paste, Record"
+date: 2026-03-14T20:46:00+09:00
 draft: false
+description: "A simple 30-second YouTube Shorts script template with exact timestamps, plus a fill-in-the-blanks version you can reuse for any niche."
+tags: ["youtube-shorts", "script", "templates", "retention"]
 ---
 
-Most Shorts fail because they *either* hook well but say nothing…
-*or* they give value but never create a clear payoff.
+## TL;DR
+- Use a **4-block** structure for 30 seconds: **Hook (0–2s) → Promise (2–5s) → Value (5–25s) → CTA (25–30s)**
+- Keep sentences short, **one idea per line**.
+- Write it as you’ll say it out loud: **simple words + active verbs**.
 
-This **30-second template** is built to do both.
+## The problem
+Most Shorts fail because the script is either:
+- too slow to start,
+- too vague (no promise), or
+- crammed with details (no rhythm).
 
-## The template (30 seconds)
+A 30-second Short has no room for “warming up”. You need a script shape that forces clarity.
 
-### 0–3s: Hook (one sentence)
-Your job is to earn the next 2 seconds.
+## The quick answer
+Use this exact template:
 
+- **0–2s (Hook):** call out the target + outcome
+- **2–5s (Promise):** what they’ll get in this video
+- **5–25s (Value):** 3 fast points (or 1 mini story)
+- **25–30s (CTA):** next step that doesn’t kill retention
+
+## Step-by-step
+### 1) Hook (0–2s)
+Goal: make the right person think “that’s me”.
+
+Pick one pattern:
+- **Result + timeframe:** “Get **[result]** in **[time]** without **[pain]**.”
+- **Mistake:** “If you’re doing **[common action]**, you’re killing your Shorts.”
+- **Counterintuitive:** “Stop trying to be creative. Do this instead.”
+
+### 2) Promise (2–5s)
+One sentence.
+
+Examples:
+- “Here’s the **30-second script** I use for every Short.”
+- “I’ll show you the **exact structure** and a copy-paste template.”
+
+### 3) Value (5–25s)
 Pick one:
-- **Outcome + timeframe:** “Do this to get ___ in ___.”
-- **Mistake warning:** “Stop doing ___ if you want ___.”
-- **Counterintuitive:** “The reason ___ doesn’t work is ___.”
 
-### 3–15s: Value (3 beats)
-Keep each beat to **one sentence**.
+**Option A: 3 bullets** (best for tips)
+- “First: **[point 1]**.”
+- “Second: **[point 2]**.”
+- “Third: **[point 3]**.”
 
-- **Beat 1:** the core idea (what to do)
-- **Beat 2:** the reason (why it works)
-- **Beat 3:** the example (how it looks)
+**Option B: Mini story** (best for proof)
+- “I used to **[pain]**.”
+- “Then I changed **[one thing]**.”
+- “Now **[result]**.”
 
-Example:
-- Beat 1: “Cut everything that doesn’t change the viewer’s understanding.”
-- Beat 2: “Shorts reward clarity, not completeness.”
-- Beat 3: “Show the final result first, then the 2 steps that create it.”
+Rule: every line should either **increase clarity** or **increase confidence**. If it doesn’t, delete it.
 
-### 15–25s: Payoff (one visible result)
-Make the takeaway feel *real*.
+### 4) CTA (25–30s)
+The CTA should feel like the natural next step, not an interruption.
 
-Options:
-- a mini “before → after”
-- a checklist (2–3 bullets)
-- a simple rule (“If X, do Y”)
+Good CTAs:
+- “If you want more templates like this, follow.”
+- “Comment **‘TEMPLATE’** and I’ll drop another one.”
+- “Save this so you can reuse it later.”
 
-### 25–30s: CTA (one clear action)
-Keep it specific and low-friction:
-- “Try this on your next Short and save the draft.”
-- “Comment ‘TEMPLATE’ if you want the structure.”
-- “If you want my Notion workflow, it’s linked below.”
+Avoid:
+- long “smash like/subscribe” speeches
+- asking for 3 actions at once
 
-## Fill-in-the-blank version
-Copy/paste:
+## Common mistakes
+- **Hook is a topic, not a promise:** “Today we’ll talk about hooks…” (too slow)
+- **No structure inside the value:** rambling kills pacing
+- **CTA is longer than the tip:** don’t undo the momentum
+- **Trying to fit 10 ideas into 30 seconds:** one clear win beats ten weak ones
 
-1) Hook: “If you’re trying to ___, stop ___.”
-2) Value beat 1: “Do ___.”
-3) Value beat 2: “Because ___.”
-4) Value beat 3: “Example: ___.”
-5) Payoff: “So the rule is: if ___, then ___.”
-6) CTA: “Now try ___ on your next Short.”
+## Template / checklist
+### Copy-paste 30-second script template
+Fill in the blanks:
 
-## Want a reusable system (not just a template)?
-I track hooks, script angles, and what actually performs inside a simple Notion OS.
+**Hook (0–2s):**
+“Hey **[who]** — want **[result]** without **[pain]**?”
 
-- YouTube Shorts Content Factory OS: https://masagc.gumroad.com/l/igcgak
+**Promise (2–5s):**
+“In 20 seconds, I’ll give you my **[thing]** template.”
+
+**Value (5–25s):**
+“1) **[point 1]**.”
+“2) **[point 2]**.”
+“3) **[point 3]**.”
+
+**CTA (25–30s):**
+“Follow for more **[niche]** templates.”
+
+### 10-second checklist before recording
+- Does the hook name a **specific person**?
+- Is the promise a **clear outcome**?
+- Is there exactly **one main idea**?
+- Is the CTA **one action**?
+
+## Related
+- /posts/youtube-shorts-hook-formulas/
+- /posts/why-your-shorts-die-in-the-first-2-seconds/

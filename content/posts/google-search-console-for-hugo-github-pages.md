@@ -1,94 +1,93 @@
 ---
-title: "Google Search Console for Hugo + GitHub Pages: Verify, Submit Sitemap, and Start Ranking"
-date: 2026-03-14T02:50:00+09:00
+title: "Google Search Console for Hugo + GitHub Pages: Fix the 404 and Get Verified"
+date: 2026-03-14T20:10:00+09:00
 draft: false
 ---
 
-If you're building an SEO blog on **Hugo + GitHub Pages**, Google won't discover your pages reliably unless you:
-1) verify ownership in **Google Search Console**, and
-2) submit your sitemap.
+If Google Search Console says:
+- **“We couldn’t find your site”**
+- **“Ownership verification failed”**
 
-This guide walks you through the fastest, lowest-friction setup.
+…and you’re using **Hugo + GitHub Pages**, the issue is almost always the same:
 
-## 1) Pick the right property type
-In Search Console, you can add a property in 2 ways:
+1) your Pages site is not actually live (still 404), or
+2) you verified the wrong URL (baseURL mismatch), or
+3) your HTML tag never got deployed.
 
-- **Domain property** (recommended if you use a custom domain)
-  - Covers all protocols/subdomains: `http`, `https`, `www`, non-`www`
-  - Requires **DNS** verification
+This guide walks you through a reliable, boring checklist that works.
 
-- **URL prefix property** (best if you only have `*.github.io`)
-  - Example: `https://YOURNAME.github.io/`
-  - Easier to verify (HTML file or meta tag)
+## Step 1: Confirm your site is live (not 404)
+Open your public URL in an incognito window.
 
-If you're starting with GitHub Pages’ default domain, choose **URL prefix**.
+Typical GitHub Pages URLs:
+- User/Org site: `https://<username>.github.io/`
+- Project site: `https://<username>.github.io/<repo>/`
 
-## 2) Verify ownership (GitHub Pages friendly methods)
-### Option A: HTML file upload (simple + robust)
-Search Console gives you a file like:
+If you see GitHub’s message like **“There isn't a GitHub Pages site here.”** you must fix Pages first.
 
-`googleXXXXXXXXXXXX.html`
+### Fix: Enable GitHub Pages correctly
+In your repo:
+- Settings → Pages
+- Build and deployment:
+  - **Source: GitHub Actions** (recommended for Hugo), or
+  - **Deploy from a branch** (only if you generate static files yourself)
 
-Steps:
-1. Put that file in your Hugo `static/` folder.
-   - Example: `static/googleXXXXXXXXXXXX.html`
-2. Commit + push.
-3. Confirm it’s publicly reachable at:
-   - `https://YOURDOMAIN.com/googleXXXXXXXXXXXX.html`
-   - or `https://YOURNAME.github.io/googleXXXXXXXXXXXX.html`
-4. Click **Verify** in Search Console.
+For Hugo, **GitHub Actions** is usually easiest.
 
-Why this works: Hugo copies `static/*` directly to the site root at build time.
+## Step 2: Make sure Hugo baseURL matches the real URL
+In Hugo config (`hugo.yaml` / `config.toml` / `config.yaml`), set:
 
-### Option B: Meta tag (quick, but theme-dependent)
-Search Console gives you a meta tag like:
+- For user site:
+  - `baseURL: "https://<username>.github.io/"`
+- For project site:
+  - `baseURL: "https://<username>.github.io/<repo>/"`
 
-`<meta name="google-site-verification" content="..." />`
+If baseURL is wrong, your sitemap, canonical URLs, and internal links will be wrong too.
 
-In Hugo, the clean approach depends on your theme. With PaperMod, you can usually add it via a custom head partial.
-If you don’t want to touch theme internals, **Option A (HTML file)** is safer.
+## Step 3: Deploy once, then verify
+Verification methods that work well:
 
-### Option C: DNS (best for custom domains)
-If you have a custom domain (recommended long-term), use **Domain property + DNS TXT record**.
-This verifies everything in one shot.
+### Option A (recommended): HTML tag verification
+Search Console gives you something like:
 
-## 3) Submit your sitemap
-Hugo generates a sitemap by default at:
+```html
+<meta name="google-site-verification" content="..." />
+```
 
-`/sitemap.xml`
+Add it to your site head (theme-dependent). Common approaches:
+- If your theme supports custom head injection, use that
+- Otherwise, add it to a `layouts/partials/head.html` override
 
-So your sitemap URL will be:
-- `https://YOURNAME.github.io/sitemap.xml` or
-- `https://YOURDOMAIN.com/sitemap.xml`
+Then:
+1. commit
+2. push
+3. wait for Pages build to finish
+4. re-open the site to confirm the tag exists in the rendered HTML
+5. click **Verify** in Search Console
 
-In Search Console:
-1. Open your verified property
-2. Go to **Sitemaps**
-3. Enter: `sitemap.xml`
-4. Submit
+### Option B: DNS TXT record (most stable)
+If you have a custom domain, DNS verification is stable and doesn’t break when you change themes.
 
-## 4) Inspect + request indexing for your first posts
-After verifying + submitting the sitemap:
-- Use **URL Inspection** for 1–3 key posts
-- Click **Request Indexing**
+## Step 4: Submit your sitemap (don’t skip this)
+Once verified, submit:
+- `https://<site>/sitemap.xml`
 
-This is most useful for new sites where Google hasn’t crawled you yet.
+Hugo generates a sitemap by default for most setups.
 
-## 5) The minimum “SEO plumbing” checklist for Hugo sites
-Before you write 30 posts, make sure:
-- `sitemap.xml` loads without errors
-- pages return `200` (not `404`)
-- canonical URLs look correct (`https://.../post-slug/`)
-- you have an internal link from the homepage to new posts
-- you have a simple About page (trust signal)
+## Step 5: Expect the first results to be slow
+Normal timeline:
+- Verification: immediate
+- Sitemap accepted: same day
+- First indexing: a few days
 
-## Common gotchas (and quick fixes)
-- **Sitemap submitted but “couldn’t fetch”** → the site is not publicly accessible, or Pages build failed.
-- **Verified but pages not indexed** → your site is too new; request indexing for the first few posts.
-- **GitHub Pages path confusion** → verify the exact URL prefix (trailing slash matters sometimes).
+What you can control:
+- publish more posts
+- internal links between posts
+- strong titles + meta descriptions
 
-## Next step
-Once Search Console is connected, the goal is consistency:
-- publish weekly
-- watch which queries bring impressions
-- write follow-up posts to expand clusters (same keywords, different angles)
+## Quick failure checklist
+If verification fails again, check:
+- the site URL returns **200** (not 404)
+- your GitHub Actions deploy is green
+- the meta tag is present in the final HTML (View Source)
+- you verified the correct property (`https://` vs `http://`, trailing slash)
